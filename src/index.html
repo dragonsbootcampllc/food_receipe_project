@@ -6,8 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+<!-- css -->
     <link rel="stylesheet" href="styles/index.css">
+<link rel="stylesheet" href="styles/header_navigator_ul.css"> 
+<link rel="stylesheet" href="styles/search_area.css">
+
+
+<!-- js -->
+    <script type="module" src="js/header_navigator_links.mjs" defer></script>
 
     <link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
 
@@ -16,17 +22,23 @@
 <body>
     <div class="header noselect">
         <a href="#default" class="logo">
-            <img src="logopng.png" style="width: 50px; height: 50px">
-
+            <img src="/assist/images/logopng.png" style="width: 50px; height: 50px">
         </a>
-        <div class="header-right">
-            <a class="active" href="#home">Home</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+        <div class="header_navigator_links">
+<ul id="header_navigator_ul" class="header_navigator_ul">
+
+</ul>
         </div>
         <div class="search_area">
-            <input placeholder="search.." class="search_bar" id="search_bar">
-            <button class="search_btn">ico</button>
+            <div class="searchBox">
+
+                <input class="searchInput"type="text" name="" placeholder="Search">
+                <button class="searchButton" href="#">
+                    <i class="material-icons">
+                        search
+                    </i>
+                </button>
+            </div>
         </div>
     </div>
 
