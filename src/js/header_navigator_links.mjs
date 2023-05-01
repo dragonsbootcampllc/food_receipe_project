@@ -2,15 +2,15 @@ let nav_object={
   "navItems": [
     {
       "label": "Home",
-      "url": "/src/"
+      "url": "/src/html"
     },
     {
       "label": "About",
-      "url": "/src/about"
+      "url": "/src/html/about"
     },
     {
       "label": "Contact",
-      "url": "/src/contact"
+      "url": "/src/html/contact"
     }
   ]
 };

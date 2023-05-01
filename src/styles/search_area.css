@@ -1,40 +1,45 @@
 .search_area{
     position:relative;
-    
+
     }
 .searchBox {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform:  translate(-50%,50%);
-    background: #2f3640;
-    height: 20px;
+    transform: translate(-50%,-50%);
+    background: black;
+    height: 40px;
     border-radius: 40px;
-    padding: 5px;
+    padding: 10px;
+display: flex;
 
 }
 
+
 .searchBox:hover > .searchInput {
-    width: 120px;
-    padding: 0 3px;
+    width: 240px;
+    padding: 0 6px;
 }
 
 .searchBox:hover > .searchButton {
   background: white;
-  color : #2f3640;
+  color : #121212;
+  cursor: pointer;
 }
 
 .searchButton {
+    cursor: pointer;
     color: white;
     float: right;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background: #2f3640;
+    background: #1f1f1f;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.4s;
+    margin-top: -5px;
 }
 
 .searchInput {
@@ -44,7 +49,7 @@
     float:left;
     padding: 0;
     color: white;
-    font-size: 8px;
+    font-size: 16px;
     transition: 0.4s;
     line-height: 20px;
     width: 0px;
@@ -52,8 +57,8 @@
 }
 
 @media screen and (max-width: 620px) {
-.searchBox:hover > .searchInput {
-    width: 70px;
-    padding: 0 6px;
+.search_area{
+    display: none;
+    
 }
 }
