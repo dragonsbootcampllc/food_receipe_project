@@ -12,7 +12,7 @@ let code_sec3 = `</h3>
 <div class="split_secion_grid_2">
 
 
-<img class="image_optomizer `
+<img class="image_optomization `
 let code_sec4=`" src=` 
 
 let code_sec5=` alt="shape_1"/>
@@ -48,7 +48,7 @@ let data = [{
         "img_link": "../../assist/images/ill.png"
 
     }, {
-        "title": "Daily Exercise Plan",
+        "title": "Daily Exercise ",
         "h1": "We Have A Exercise Program",
         "description": "We help you get in shape with a daily exercise plan",
         "img_link": "../../assist/images/training.png",
