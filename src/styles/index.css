@@ -2,6 +2,12 @@
   font-family: "worksans";
   src: url("../../assist/worksans/WorkSans-Italic[wght].ttf") format("truetype");
 }
+@font-face {
+  font-family: 'hotpizza';
+  src: url('/assist/fonts/hotpizza.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   box-sizing: border-box;
@@ -39,7 +45,7 @@ body {
   align-items: center;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  
+ 
 }
 
 .header a {
@@ -89,6 +95,7 @@ body {
   gap: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+
 }
 
 .right_forsec1 {
@@ -306,4 +313,8 @@ body {
   border-radius:11px;
   height:40px;
   width: 40px;
+}
+
+.pointer{
+  cursor: pointer;
 }
