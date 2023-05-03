@@ -1,44 +1,101 @@
-.sec3{
-    width: 100%;
-    height: 100%;
+.sec3 {
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.sec3_main_container_title {
+  font-size: 1rem;
+  text-align: center;
+  color: gray;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: boldsh, "Montserrat", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  margin: 0 auto;
+  gap: 0.5rem;
+}
+
+.sec3_main_container {
+  width: 70%;
+  height: 100%;
+  min-height: 100px;
+  margin: 0 auto;
+  margin-top: 2rem;
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
-    margin-top: 5rem;
-}
-.sec3_main_container_title{
-    font-size: 1rem;
-    font-weight: 700;
-    text-align: center;
-    color: gray;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    font-family: boldsh,'Montserrat', sans-serif;
-    width: 100%;
-    margin: 0 auto;
-    gap: 0.5rem;
-}
-
-.sec3_main_container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 2rem;
 
 }
-.svg_contaoner{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+.svg_contaoner:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  filter: blur(10px);
+  z-index: 10;
 }
 
-.svg_property{
-    height:70px;
-    width: 70px;
-    margin: 0 auto;
-    filter: invert(100%);
-    filter: grayscale(100%);
-    color: white;
+.sec3_main_container p {
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  filter: blur(0px);
+  position: absolute;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.5s;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  z-index: 10;
+}
+
+
+.sec3_main_container:hover p {
+  z-index: 20;
+  filter: blur(0px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sec3_main_container {
+    width: 100%;
+    gap: 31rem;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    overflow-x:scroll;
+      overflow-y: hidden;
+  }
+}
+.svg_contaoner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.svg_property {
+  height: 70px;
+  width: 70px;
+  margin: 0 auto;
+  filter: invert(100%);
+  filter: grayscale(100%);
+  color: white;
+  position: relative;
+    @media screen and (max-width: 768px) {
+        height: 50px;
+        width: 50px;
+    }
 }
