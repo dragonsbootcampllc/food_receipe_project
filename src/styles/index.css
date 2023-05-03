@@ -85,15 +85,7 @@ body {
   margin-right: 10px;
 }
 
-.sec1_announce {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 
-}
 
 .right_forsec1 {
   width: 100vh;
@@ -145,19 +137,7 @@ body {
   align-items: center;
 }
 
-.underlayer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 
-  filter: contrast(1.5);
-  opacity: 0.5;
-  z-index: -1;
-  animation: animate 5s linear infinite;
-}
 .overlayer_upper {
   position: absolute;
   bottom: 0;
@@ -172,6 +152,8 @@ body {
 .bounce {
   position: relative;
   box-sizing: border-box;
+  object-fit: contain;
+
   animation-name: bounce;
   animation-timing-function: ease;
   animation-duration: 5s;

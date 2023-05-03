@@ -1,37 +1,48 @@
 @media screen and (max-width: 1068px) {
-    .right_forsec1 {
-      width: 100%;
-      height: 100%;
-      padding: 0 0 0 0;
-      margin: 0 0 0 0;
-      position: relative;
-      overflow: hidden;
-    }
-    .left_forsec1 {
-      width: 100%;
-      height: 100%;
-  margin-top: 50px;
-  padding-left:40px;
-  padding-right:40px;
-  margin-right:3px;
-  margin-left:3px;
-      position: relative;
-      overflow: hidden;
-      display: grid;
-      place-items: center;
-  
-    }
+  .right_forsec1 {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    position: relative;
   }
+  .left_forsec1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 3px;
+    margin-left: 3px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+  }
+}
+
+.sec1_announce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 1068px) {
   .sec1_announce {
     display: flex;
     flex-direction: column;
-
   }
   .sec1_main_image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    position: relative;
+    overflow: hidden;
+    display: grid;
   }
 }
 .right_forsec1 {
@@ -39,36 +50,34 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
   height: 100%;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   position: relative;
+  margin-top: 50px;
+  overflow: hidden;
 }
-
 
 .headingText_p {
   font-size: 1.5rem;
   font-weight: 400;
   color: #fff;
   margin: 0 0 0 0;
-  padding: 0 0 0 0;
   text-align: left;
   line-height: 1.5;
   overflow-wrap: break-word;
-    text-shadow: 0 0 10px #000;
-    opacity: 0.7;
-    margin-bottom: 20px;
-  
-  
+  text-shadow: 0 0 10px #000;
+  opacity: 0.7;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 1068px) {
   .headingText_p {
     text-align: center;
     overflow-wrap: break-word;
-
-}
+  }
 }
 
 .left_forsec1 {
@@ -83,106 +92,139 @@
   overflow: hidden;
 }
 
-
 .headingText_h1 {
-    font-size: 6rem;
-    font-weight: 600;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-right: 140px; 
-    font-family: boldsh ,'Poppins', sans-serif;
-  }
-  
-  @media screen and (max-width: 1068px) {
-    .headingText_h1 {
-      text-align: center;
-      padding-right: 0px;
-      font-size: 50px;
-      margin-top: 50px;
-     
-    }
-  }
+  font-size: 6rem;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 140px;
+  font-family: boldsh, "Poppins", sans-serif;
+}
 
+@media screen and (max-width: 1068px) {
+  .headingText_h1 {
+    text-align: center;
+    padding-right: 0px;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+}
 
-  .callToAction {
-    display: flex;
-    gap: 30px;
-padding-right:10px;
-padding-left:10px;  
+.callToAction {
+  display: flex;
+  gap: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 1068px) {
   .callToAction {
     gap: 20px;
-    padding-right:0px;
-    padding-left:0px;  
+    padding-right: 0px;
+    padding-left: 0px;
     width: 100%;
     justify-content: center;
   }
+  .underlayer {
+    display: none;
+  }
+  .overlayer_upper {
+    display: none;
+  }
 }
+.underlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 
+  filter: contrast(1.5);
+  opacity: 0.5;
+  z-index: -1;
+  animation: animate 5s linear infinite;
+}
 @media screen and (max-width: 468px) {
-    .callToAction {
-      flex-direction: column;
-      gap: 20px;
-      padding-right:0px;
-      padding-left:0px;  
-      width: 100%;
-      justify-content: center;
-      margin:auto;
-      margin-top: 50px;
-    }
-    .btn_style_priority{
-        justify-content: center;
-        width: 90%;
-        margin:auto;
-    }
-  }
-
-  .btn_style{
-    color: gray;
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
-    padding: 10px 20px 10px 20px;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 0 0 10px #000000;
-    transition: all 0.3s ease-in-out;
+  .callToAction {
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
     width: 100%;
-    backdrop-filter: blur(10px);
-    background-color: black;
-    position: relative;
-
-  }
-
-  .btn_style_not_perurity{
-    position: absolute;
-    color: gray;
-    top: 0;
-    margin-top: 20px;
-
-      
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
   }
   .btn_style_priority {
-    cursor: pointer;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
+    justify-content: center;
     width: 90%;
-
+    margin: auto;
+  }
+  .sec1_main_image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    margin-top: 10px;
   }
 
-  .btn_style_priority_h1{
-
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: 10px;
-    border: none;
-
+  .sec1_announce {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
+}
+
+.btn_style {
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10px #000000;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background-color: black;
+  position: relative;
+}
+
+.btn_style_not_perurity {
+  position: absolute;
+  color: gray;
+  top: 0;
+  margin-top: 20px;
+  text-decoration: underline wavy;
+
+  box-shadow: 0 0 10px #000000;
+
+  backdrop-filter: blur(10px);
+  background-color: black;
+}
+.btn_style_priority {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  width: 90%;
+}
+
+.btn_style_priority_h1 {
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}

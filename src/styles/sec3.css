@@ -1,0 +1,21 @@
+.sec3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.sec3_main_container_title{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-family: boldsh,'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
