@@ -7,7 +7,6 @@
   padding: 20px;
   box-sizing: border-box;
   position: relative;
-  overflow: hidden;
 }
 .sec2_main_container {
   width: 100%;
@@ -20,24 +19,29 @@
   position: relative;
 }
 .sec2_main_container_title {
+  position: -webkit-sticky;
+  position: sticky;  
   font-size: 40px;
   color: #333;
   color: #fff;
   text-align: center;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   z-index: 100;
   font-family: worksans , sans-serif ;
    font-weight: 400;
    padding-top: 20px;
    margin: 0 auto;
-   background-color:hsla(180, 0%, 0%, 0.68)
+   background-color:hsla(180, 0%, 0%, 0.68);
+    backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
 }
 
 @media screen and (max-width: 768px) {
   .sec2_main_container_title {
     font-size: 15px;
+    position: -webkit-sticky;
+  position: sticky;  
   }
 }
 
