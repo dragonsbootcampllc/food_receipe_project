@@ -9,16 +9,17 @@
   position: relative;
 }
 .sec3_main_container_title {
-  font-size: 1rem;
+  font-size: 0.75rem;
   text-align: center;
   color: gray;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  font-family: boldsh, "Montserrat", sans-serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   width: 100%;
   margin: 0 auto;
   gap: 0.5rem;
+  margin-bottom: -1rem;
 }
 
 .sec3_main_container {
