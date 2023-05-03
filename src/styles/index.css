@@ -1,9 +1,7 @@
-
 @font-face {
-  font-family: 'boldsh';
-  src: url('/assist/fonts/Grold-ExtraBlack.ttf') format('truetype');
-font-weight: bold;
-
+  font-family: "boldsh";
+  src: url("/assist/fonts/Grold-ExtraBlack.ttf") format("truetype");
+  font-weight: bold;
 }
 
 * {
@@ -34,7 +32,16 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: #1f1f1f;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  -webkit-box-shadow: 0px 1px 0px 0px gray;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+
   padding: 10px 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -42,12 +49,11 @@ body {
   align-items: center;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
- 
 }
 
 .header a {
   float: left;
-  color:  #d4d4d4;
+  color: #d4d4d4;
   text-align: right;
   padding: 2px;
   text-decoration: none;
@@ -83,9 +89,25 @@ body {
   display: grid;
   place-items: center;
   margin-right: 10px;
+  animation-name: logo;
+  animation-duration: 2s;
+  animation-iteration-count: auto infinite;
+  animation-timing-function: ease-in-out;
+
+
+
 }
-
-
+@keyframes logo {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
 .right_forsec1 {
   width: 100vh;
@@ -117,9 +139,6 @@ body {
   align-items: center;
 }
 
-
-
-
 .btn_style_priority {
   height: 60px;
   width: 170px;
@@ -129,14 +148,12 @@ body {
   display: inline-block;
 }
 
-
 .container {
   display: flex;
   gap: 5px;
   justify-content: center;
   align-items: center;
 }
-
 
 .overlayer_upper {
   position: absolute;
@@ -183,7 +200,7 @@ body {
   display: flex;
   justify-content: center;
   color: yellow;
-  gap: 3px;;
+  gap: 3px;
 }
 .card_image {
   height: 100px;
@@ -198,7 +215,6 @@ body {
 }
 .card_image_inner {
   margin-top: 20px;
-  
 }
 .card_image2 {
   height: 100px;
@@ -233,7 +249,6 @@ body {
   margin-bottom: 10px;
 }
 .inner_card {
-
   position: absolute;
   bottom: 0;
 }
@@ -277,30 +292,23 @@ body {
   }
 }
 
-
-
-.search_bar{
-  height:40px;
+.search_bar {
+  height: 40px;
   border-radius: 11px;
   padding: 4px;
-  width:250px;
+  width: 250px;
   background-color: #121212;
   color: #ffffff;
 }
-.search_btn{
-  border-radius:11px;
-  height:40px;
+.search_btn {
+  border-radius: 11px;
+  height: 40px;
   width: 40px;
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
 }
-
-
-
-
-
 
 .boujee_text {
   color: #3c3c3c;
@@ -338,6 +346,3 @@ body {
   background-size: 500% auto;
   animation: textShine 5s ease-in-out infinite alternate;
 }
-
-
-
