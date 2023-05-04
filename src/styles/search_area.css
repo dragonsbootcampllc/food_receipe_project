@@ -1,75 +1,63 @@
-.search_area{
-    position:relative;
-
-    }
+.search_area {
+  position: relative;
+}
 .searchBox {
-    position: absolute;
-    top: 50%;
-    right: 30%;
-    transform: translate(50%,-50%);
-    background: black;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-display: flex;
-opacity: 0.8;
-filter: invert(0.1);
-cursor: pointer;
-
-
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  transform: translate(50%, -50%);
+  background: black;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+  opacity: 0.8;
+  filter: invert(0.1);
+  cursor: pointer;
 }
 
-
 .searchBox:hover > .searchInput {
-    width: 240px;
-    padding: 0 6px;
-    
+  width: 240px;
+  padding: 0 6px;
 }
 
 .searchBox:hover > .searchButton {
   background: white;
-  color : #121212;
-  box-shadow: 0 0 5px red,
-            0 0 10px #121212,
-            0 0 20px #121212,
-            0 0 40px #121212;
-transition: 0.4s;
-
- 
+  color: #121212;
+  box-shadow: 0 0 5px red, 0 0 10px #121212, 0 0 20px #121212, 0 0 40px #121212;
+  transition: 0.4s;
 }
 
 .searchButton {
-    cursor: pointer;
-    color: white;
-    float: right;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #1f1f1f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-    margin-top: -5px;
+  cursor: pointer;
+  color: white;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  margin-top: -5px;
 }
 
 .searchInput {
-    border:none;
-    background: none;
-    outline:none;
-    float:left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 20px;
-    width: 0px;
-
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 0px;
 }
 
 @media screen and (max-width: 1320px) {
-.search_area{
+  .search_area {
     display: none;
-    
-}
+  }
 }
