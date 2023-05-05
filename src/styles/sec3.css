@@ -63,8 +63,7 @@
   text-align: center;
   z-index: 10;
   display:flex;
-  justify-content:center;
-  align-items:center;
+
   @media screen and (max-width: 768px) {
     font-size: 0.75rem;
   }
@@ -83,12 +82,42 @@
 @media screen and (max-width: 768px) {
   .sec3_main_container {
     width: 100%;
-    gap: 31rem;
-    scroll-snap-align: center;
+    gap:1.5rem;
+    scroll-snap-align: start;
     scroll-snap-stop: always;
     overflow-x:scroll;
       overflow-y: hidden;
+      display:flex;
+      justify-content:flex-start;
+      align-items:left;
+      flex-direction:row;
+      margin:0 auto;
+      margin-top:2rem;
+      scroll-behavior: smooth;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 2rem;
+        background: linear-gradient(
+          to right,
+         
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0.5)
+        );
+        background: linear-gradient(
+          to left,
+         
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0.1)
+        );
+      }
   }
+
 }
 .svg_contaoner {
   width: 100%;
@@ -96,6 +125,7 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  
 }
 
 .svg_property {
@@ -111,3 +141,5 @@
         width: 50px;
     }
 }
+
+

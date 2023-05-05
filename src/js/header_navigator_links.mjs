@@ -15,6 +15,7 @@ let nav_object={
   ]
 };
 let nav_ul=document.getElementById("header_navigator_ul");
+
 for(const element of nav_object.navItems){
   let li=document.createElement("li");
   let a=document.createElement("a");

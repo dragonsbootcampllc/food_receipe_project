@@ -13,9 +13,9 @@ let code_sec3 = `</h3>
 
 
 <img class="image_optomization `
-let code_sec4=`" src=` 
+let code_sec4 = `" src=`
 
-let code_sec5=` alt="shape_1"/>
+let code_sec5 = ` alt="shape_1"/>
 
 
 </div>
@@ -24,6 +24,18 @@ let code_sec5=` alt="shape_1"/>
 </div>
 </div>
 </div>`;
+
+
+
+
+
+
+
+
+
+
+
+
 
 let data = [{
         "title": "Weight Loss",
@@ -58,11 +70,19 @@ let data = [{
 ];
 
 
+
+
+
+
+
+
+
 let container = document.querySelector(".list_what_we_do");
+
 for (let i = 0; i < data.length; i++) {
-    container.innerHTML += code_sec1 + (i + 1) + code_sec2 + data[i].title+ code_sec3 +data[i].image_sizing+code_sec4+ data[i].img_link+code_sec5;
+    container.innerHTML += code_sec1 + (i + 1) + code_sec2 + data[i].title + code_sec3 + data[i].image_sizing + code_sec4 + data[i].img_link + code_sec5;
     document.getElementsByClassName("shape_circle_tail")[i].classList.add("color_" + (i + 1));
     document.getElementsByClassName("container_what_we_do_content_title")[i].classList.add("color_text_" + (i + 1));
     document.getElementsByClassName("line_vertical")[i].classList.add("color_" + (i + 1));
-    
+
 }
