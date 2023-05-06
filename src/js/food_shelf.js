@@ -4,6 +4,7 @@ const food_sheif_items = [{
         prise: 10,
         img: "../../assist/images/3.png",
         color: "yellow"
+        , id: 1
     },
     {
         type: "dinner",
@@ -11,11 +12,21 @@ const food_sheif_items = [{
         prise: 10,
         img: "../../assist/images/3.png",
         color: "yellow"
+        , id:2,
     },
     {
         type: "dinner",
         name: "Chicken and Rice",
         prise: 10,
+        img: "../../assist/images/3.png",
+        color:"yellow"
+        , id:3,
+    },
+    {
+        type: "dinner",
+        name: "Chicken and Rice",
+        prise: 10,
+         id:4,
         img: "../../assist/images/3.png",
         color: "yellow"
     },
@@ -23,15 +34,7 @@ const food_sheif_items = [{
         type: "dinner",
         name: "Chicken and Rice",
         prise: 10,
-
-        img: "../../assist/images/3.png",
-        color: "yellow"
-    },
-    {
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-
+        id:5,
         img: "../../assist/images/3.png",
         color: "yellow"
     }, {
@@ -40,11 +43,13 @@ const food_sheif_items = [{
         prise: 10,
         img: "../../assist/images/3.png",
         color: "yellow"
+        ,id:6,
     },
     {
         type: "dinner",
         name: "Chicken and Rice",
         prise: 10,
+        id:6,
         img: "../../assist/images/3.png",
         color: "yellow"
     },
@@ -52,7 +57,7 @@ const food_sheif_items = [{
         type: "dinner",
         name: "Chicken and Rice",
         prise: 10,
-
+        id:7,
         img: "../../assist/images/3.png",
         color: "yellow"
     },
@@ -60,7 +65,7 @@ const food_sheif_items = [{
         type: "dinner",
         name: "Chicken and Rice",
         prise: 10,
-
+        id:8,
         img: "../../assist/images/3.png",
         color: "red"
     },
@@ -68,7 +73,7 @@ const food_sheif_items = [{
         type: "dinner",
         name: "Chicken and Rice",
         prise: 10,
-
+        id:9,
         img: "../../assist/images/3.png",
         color: "yellow"
     },
@@ -76,7 +81,7 @@ const food_sheif_items = [{
         type: "breakfast",
         name: "eggs and bacon",
         prise: 10,
-
+        id:10,
         img: "../../assist/images/3.png",
         color: "yellow"
     },
@@ -84,11 +89,12 @@ const food_sheif_items = [{
         type: "breakfast",
         name: "eggs and bacon",
         prise: 10,
-
+        id:11,
         img: "../../assist/images/3.png",
         color: "yellow"
     },
 ];
+import   "../store/API/JSON/item_recipe.js";
 
 const food_shelf = document.querySelector(".food_shelf_container");
 
@@ -120,7 +126,7 @@ function createFoodShelfItem(item) {
                     <div class="data_container">
                         <h3>${item.name}</h3>
                         <p>${item.prise}$</p>
-                        <button>order</button>
+                        <button   type="button" onclick="seeTheRecipe(${item.id})">order</button>
                     </div>
                 </div>
             </div>
@@ -142,3 +148,5 @@ function showFoodShelfItems(items) {
 }
 
 showFoodShelfItems(food_sheif_items);
+
+
