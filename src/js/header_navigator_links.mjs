@@ -11,7 +11,7 @@ let nav_object={
     {
       "label": "Contact",
       "url": "/src/html/contact"
-    }
+    },
   ]
 };
 let nav_ul=document.getElementById("header_navigator_ul");
