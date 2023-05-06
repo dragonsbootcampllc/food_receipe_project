@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,27 +11,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 </head>
+
 <body>
     <main>
-        <section >
+        <section>
             <div class="recipe_item_detailes" id="recipe_item_detailes"></div>
         </section>
     </main>
 
     <script>
-$( document ).ready(function() {
-whatis();
-});
-function whatis(){
-          let newObject =  JSON.parse(window.localStorage.getItem("recipe_data"));
-  console.log(newObject);
-  let IngrediantsHTML = "";
-  for (let i = 0; i < newObject.ingredients.length; i++) {
-    IngrediantsHTML += `<li>${newObject.ingredients[i]}</li>`;
-  }
-  if (document.getElementById("recipe_item_detailes") != null) {
-    console.log("the data is not null yaaay");
-    document.getElementById("recipe_item_detailes").innerHTML = `
+        $(document).ready(function () {
+            whatis();
+        });
+        function whatis() {
+            let newObject = JSON.parse(window.localStorage.getItem("recipe_data"));
+            console.log(newObject);
+            let IngrediantsHTML = "";
+            for (let i = 0; i < newObject.ingredients.length; i++) {
+                IngrediantsHTML += `<li>${newObject.ingredients[i]}</li>`;
+            }
+            if (document.getElementById("recipe_item_detailes") != null) {
+                console.log("the data is not null yaaay");
+                document.getElementById("recipe_item_detailes").innerHTML = `
 <div class="recipe_item_detailes">
 <div class="recipe_item_detailes_img">
 </div>
@@ -39,7 +41,7 @@ function whatis(){
     <p>${newObject.description}</p>
     <div class="recipe_item_detailes_text_ingrediants">
         <h2>Ingrediants</h2>
-      ${IngrediantsHTML }
+      ${IngrediantsHTML}
     </div>
     <div class="recipe_item_detailes_text_steps">
         <h2>Steps</h2>
@@ -49,10 +51,12 @@ function whatis(){
     </div>
 </div>
 </div>
-`;}
-}
- 
- 
+`;
+            }
+        }
+
+
     </script>
 </body>
+
 </html>
