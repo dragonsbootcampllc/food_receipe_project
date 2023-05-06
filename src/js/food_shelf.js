@@ -103,7 +103,7 @@ function createFoodShelfItem(item) {
     <div class="container">
     <div class="card">
         <div class="card_image2">
-            <img src="${item.img}" class="card_image_inner" alt="" height="170px"
+            <img src="${item.img}" class="card_image_inner noselect" alt="${item.name}?=${item.type}" height="170px"
                 width="240px">
 
         </div>
@@ -113,8 +113,8 @@ function createFoodShelfItem(item) {
         <div class="card_h1 container">
             <div class="inner_card">
                 <div class="container_food_item">
-                    <div style="color:${item.color};" class="dot_spot"><span style="  background-color:${item.color};
-                    " class="dot_animated ">.</span>${item.type}</p>
+                    <div style="color:${item.color};" class="dot_spot noselect"><span style=" background-color:${item.color};
+                    " class="dot_animated noselect ">.</span>${item.type}</p>
 
                     </div>
                     <div class="data_container">
