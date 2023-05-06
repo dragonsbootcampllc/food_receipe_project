@@ -2,7 +2,7 @@
     function seeTheRecipe(id_number_recipe) {
       
         $(document).ready(function () {
-          fetch("/src/store/API/JSON/recipes.json").
+          fetch("https://dragonseg.github.io/food_receipe_project/src/store/API/JSON/recipes.json").
             then(response => response.json()).
             then(data => {
                 console.log(data.data[id_number_recipe-1]);
@@ -26,7 +26,7 @@ function getdata_byID (object,id_number_recipe) {
     $(document).ready(function () {
         localStorage.setItem("recipe_data", JSON.stringify(item_data.data[id_number_recipe]));
 
-        window.location.href = '/src/html/recipes.html';
+        window.location.href = 'https://dragonseg.github.io/food_receipe_project/src/html/recipes.html';
     });
     
     // jquery retrerive data from local storage
