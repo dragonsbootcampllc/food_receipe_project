@@ -199,7 +199,6 @@ body {
 .dot_spot {
   display: flex;
   justify-content: center;
-  color: yellow;
   gap: 3px;
 }
 .card_image {
@@ -251,6 +250,7 @@ body {
 .inner_card {
   position: absolute;
   bottom: 0;
+  width: 100%;
 }
 .p_card_announce {
   color: yellow;
@@ -267,7 +267,6 @@ body {
 .dot_animated {
   height: 10px;
   width: 10px;
-  background-color: yellow;
   border-radius: 50%;
   animation: pulse 2s infinite;
   position: relative;
