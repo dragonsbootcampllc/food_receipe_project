@@ -14,7 +14,7 @@
   background-color: #fff;
   border: 1px solid  rgba(211, 0, 0, 0.3);
   border-radius: 15px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -219,7 +219,7 @@ width: 100%;
   top: 0;
   left: 0;
   overflow: hidden;
-  z-index: 20;
+  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -257,8 +257,9 @@ width: 100%;
   
 
 .video_section .announce .inner_action:hover {
-opacity: 0.8;
-cursor: pointer;  
+opacity: 0.6;
+cursor: pointer; 
+background-color:#fff; 
 }
 
 
