@@ -46,7 +46,88 @@
     text-align: left;
     justify-content:start;
     align-items: left;
+    
 }
+
+.video_section .container .player_btn{
+position: absolute;
+bottom: 0;
+right: 0;
+      padding: 25px;
+      height:80px;
+        width: 80px;
+        background:#fff;
+opacity: 0.1;
+        border-radius: 50%;
+        transition: all 0.3s ease-in-out;
+
+    }
+    
+    .video_section .player_btn_container .player_btn_img{
+      height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: contain;
+        display: grid;
+        place-items: center;
+        position: relative;
+        
+
+    }
+
+    .video_section .player_btn_container .player_btn_img .player_btn_img_src{
+        height: 30%;
+            width: 30%;
+            
+            object-fit: contain;
+            display: grid;
+            place-items: center;
+            position: relative;      
+    }
+
+    .video_section .container .player_btn_container{
+        position: absolute;
+bottom: 0;
+right: 0;
+
+        margin: 25px;
+        height:80px;
+        width: 80px;
+        border-radius: 50%;
+
+    }
+    .video_section .container .player_btn_img:hover{
+
+        opacity: 0.5;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    @media (max-width: 768px) {
+      .video_section .container .player_btn{
+        padding: 15px;
+        height:60px;
+        width: 60px;
+      }
+      .video_section .container .player_btn_container{
+        margin: 15px;
+        height:60px;
+        width: 60px;
+      }
+    }
+    @media (max-width: 576px) {
+      .video_section .container .player_btn{
+        padding: 10px;
+        height:40px;
+        width: 40px;
+        
+      }
+      .video_section .container .player_btn_container{
+        display: none;
+      }
+
+
+    }
 
 .video_section .container .chapter{
     font-size: 14px;
@@ -61,7 +142,10 @@
     flex-direction: column;
     padding: 0;
     padding-bottom: 5px;
-  }
+    font-family: 'Poppins', sans-serif;
+      
+}
+
   
 .video_section .container .h1{
     font-size: 32px;
