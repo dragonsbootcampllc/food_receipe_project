@@ -27,34 +27,32 @@
   
         <h1 class="section-header">Contact</h1>
         
-        <div class="contact-wrapper">
+        <div class="contact_wrapper_flex_custom">
         
         <!-- Left contact page --> 
           
-          <form id="contact-form" class="form-horizontal" role="form">
-             
-            <div class="form-group">
-              <div class="col-sm-12 responsive_inputs mb-2 mt-2">
-                <input type="text" class=" inputs_custom_css" id="name" placeholder="NAME" name="name" value="" required>
-              </div>
+        <form class="form_container" role="form" method="post" action="contact.php">
+          <div class="">
+            <div class="">
+              <input type="text"  class="inputs_custom_css" id="name" placeholder="NAME" name="name" value="">
             </div>
-      
-            <div class="form-group">
-              <div class="col-sm-12 responsive_inputs mb-2 mt-2">
-                <input type="email" class=" inputs_custom_css" id="email" placeholder="EMAIL" name="email" value="" required>
-              </div>
+          </div>
+          <div class="">
+            <div class="">
+              <input type="email"  class="inputs_custom_css" id="email" placeholder="EMAIL" name="email" value="">
             </div>
-            <textarea class="textArea_custome_css" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-            
-          
+          </div>
+<div class="textArea_custome_css">
+  <textarea rows="10" class="textArea_custome_css"  placeholder="MESSAGE" name="message"></textarea>
 
-      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-              <div class="alt-send-button">
-                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
-              </div>
-            
-            </button>
-            
+</div>
+
+          <button id="submit" class="form_btn_custom" type="submit" value="SEND">
+            <div class="button">
+              <i class="fa fa-paper-plane"></i></div>
+          
+          </button>
+          
           </form>
           
         <!-- Left contact page --> 
@@ -87,7 +85,6 @@
               </ul>
               <hr>
       
-              <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
       
             </div>
           
@@ -95,7 +92,8 @@
         
       </section>  
         
-        
+      <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+
     </div>
   </section>
 </main>  

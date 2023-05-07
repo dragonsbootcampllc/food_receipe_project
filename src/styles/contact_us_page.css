@@ -187,6 +187,10 @@ textarea {
   color: #555;
   letter-spacing: 1px;
   text-align: center;
+  position: absolute;
+  bottom: 20px;
+  right: 0%;
+  left: 0%;
 }
 
 hr {
@@ -269,7 +273,7 @@ hr {
   color: #fff;
   letter-spacing: 1px;
   resize: none;
-  padding: 10px;
+
   border: none;
   outline: none;
   font-family: 'Lato';
@@ -295,3 +299,65 @@ hr {
   border-radius: 5px;
   border: 1px solid #fff;
 }
+
+.form_container{
+  width: 100%;
+    align-items: center;
+}
+
+.form_btn_custom{
+  width: 100%;
+  height: 40px;
+  background-color: red;
+  color: #fff;
+  letter-spacing: 1px;
+  resize: none;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-family: 'Lato';
+  font-weight: 400;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.contact_wrapper_flex_custom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+  gap: 20px;
+}
+@media screen and (max-width: 850px) {
+  .contact_wrapper_flex_custom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+  
+@media screen and (max-width: 569px) {
+  .contact_wrapper_flex_custom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+  
+
+@media screen and (min-width: 900px) {
+  .contact_wrapper_flex_custom{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+  }
+  
+}
+
+  
