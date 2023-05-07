@@ -114,7 +114,7 @@ position: relative;
 }
 
 .main_text_container h1{
-    font-size: 40px;
+    font-size: 40px ;
     font-weight: 600;
     margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
@@ -177,6 +177,7 @@ position: relative;
 .the_right_h1{
   z-index: 1;
   font-size: 70px !important;
+  color: #212529;
 }
 
 .inner_container_left_side{

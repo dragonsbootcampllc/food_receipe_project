@@ -24,3 +24,5 @@ for(const element of nav_object.navItems){
   li.appendChild(a);
   nav_ul.appendChild(li);
 }  
+
+
