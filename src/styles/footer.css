@@ -1,0 +1,390 @@
+
+.footer_container .section {
+    text-align: justify;
+    padding: 0 2em 2em;
+}
+
+.footer_container h1 {
+    text-align: center;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 35px;
+    color: #656565;
+}
+
+.footer_container .dummy-text {
+    color: #3c3b3b;
+    font-family: lato;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer_container .col-6 {
+    width:50%;
+    display: inline-table;
+}
+
+footer {
+    background-color: #3c3b3b;
+    padding: 3em 4em 2em;
+}
+
+    footer .logo {
+        color:#fff;
+        font-size: 28px;
+        font-family: roboto;
+    }
+
+    footer .row {
+        margin: 2em 0;
+        font-family: lato;
+        color: #fff;
+        position: relative;
+        border-bottom: 1px solid #cecece;
+    }
+    
+    .footer-toggle {
+        display: none;
+    }
+
+    .link-cat {
+        cursor:pointer;
+    }
+    
+    footer ul {
+        padding:0;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;        
+    }
+
+        footer ul li {
+            list-style-type: none;
+            padding:0;            
+            -webkit-transition: all .5s ease-in-out;            
+            transition: all .5s ease-in-out;
+            line-height: 2;            
+        }  
+
+        footer .footer-cat, #newsletter span {
+            font-size: 20px;
+        }
+
+        .footer-cat-links a {
+            color: #cecece;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .footer-cat-links.active > li a {
+            pointer-events: auto;
+        }
+
+        .footer-cat-links a:after {
+            top: 21px;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            width: 0;
+            background: #fff;
+            
+            -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        }
+
+        .footer-cat-links a:hover:after, .footer-cat-links a:focus:after {
+            width: 100%;
+            left: 0;
+        }
+
+        footer #subscribe {
+            margin: 20px 0px 30px;
+        }
+
+        input#subscriber-email {
+            outline: none;
+            padding: 8px;
+            background: #212121;
+            border: 1px solid #cecece;
+            color: #cecece;
+            border-radius: 4px 0px 0px 4px;
+        }
+
+        input#subscriber-email::-webkit-input-placeholder {
+            color:rgb(202, 196, 196);
+        }
+
+        input#subscriber-email:-ms-input-placeholder {
+            color:#cecece;
+        }
+
+        input#subscriber-email::-ms-input-placeholder {
+            color:#cecece;
+        }
+
+        input#subscriber-email::placeholder {
+            color:#cecece;
+        }
+
+    .col-3 {
+        display: inline-table;
+        width:25%;
+    }
+
+    .col-3#newsletter {
+        width:24%
+    }
+
+    .col-3#newsletter #btn-scribe {
+        margin-left: -4px;
+        border: 1px solid #cecece;
+        border-radius: 0px 4px 4px 0;
+        padding: 8px 5px;
+        background-color: #e2e2e2;
+        color: #212121;
+        cursor: pointer;
+    }
+
+    .social-2 {
+        display: none;
+    }
+
+    .social-links {
+        bottom: 44px;
+        position: absolute;
+        left: 0;
+    }
+    
+        .social-links a {
+            color: #fff;
+            font-size: 20px;
+            border: 1px solid;
+            border-radius: 20px;
+            padding: 6px;
+
+            -webkit-transition:all .2s ease-in;
+            transition:all .2s ease-in;
+        }
+
+        .social-links a:not(:last-child) {
+            margin-right: 10px;
+        }
+
+        .social-links a:hover, .social-links a:focus {
+            background-color: #212121;
+        }
+
+            .social-links a i {
+                width: 25px;
+                height: 25px;
+                text-align:center;
+            }
+
+            #newsletter #address li:not(:first-child) {
+                padding: 20px 0;
+            }
+        
+                #newsletter #address li i {
+                    font-size: 45px;
+                    width: auto;
+                    padding: 5px;
+                }
+
+                    #newsletter #address li div {
+                        color: #cecece;
+                        font-size: 14px;
+                        width: 80%;
+                        text-align: left;
+                        float: right;
+                        line-height: 1.3;
+                    }
+
+    #copyright {
+        text-align: center;
+        color:#fff;
+        font-family: lato;
+    }
+
+#owner {
+    text-align: center;
+    padding: 20px 0 0px;
+    color: #fff;
+    font-family: lato;
+}
+
+    #owner a {
+        color:#fff;        
+    }
+
+/* iPads to Smartphone for Common Elements ----------- */  
+@media only screen and (max-width : 1024px) {    
+
+    .col-3 {
+        display: block;
+        width: 100%;
+        padding-bottom: 1em;
+        position: relative;
+    }
+
+    .col-3#newsletter {
+        width: 100%;
+        position: relative;
+        padding-bottom: 0;
+        padding-top: 1em;
+    }    
+        
+    footer .footer-cat {
+        margin-left: 25px;
+    }
+     
+    .footer-toggle,.footer-toggle::after {
+        background: #fff;
+        height: 2px;
+        width: 15px;
+        position: absolute;
+        display: block;
+        -webkit-transition:all .4s ease-in;
+        transition:all .4s ease-in;
+    }
+
+    .footer-toggle {        
+        top: 11px;
+        cursor:pointer;
+    }
+
+    .footer-toggle::after {
+        content: '';
+        -webkit-transform: rotate(90deg);
+                transform: rotate(90deg);
+    }
+
+    .btnActive .footer-toggle::after {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+
+    .footer-cat-links {
+        margin: 0 0em 0px 1.6em;
+    }
+
+        .footer-cat-links a {
+            pointer-events: none;
+        }
+    
+    .footer-cat-links li {
+        line-height: 0;
+        opacity: 0;
+    }
+
+    .footer-cat-links.active > li{
+        line-height:2;
+        opacity:1;
+    }
+
+    .social-1 {
+        display: none !important;
+    }
+
+    .social-2 {
+        display: block;
+        position: absolute;
+        top: 7.5em;
+        bottom: 0px;
+        height:20px;
+        padding-bottom: 1.5em;
+        width: 100%;
+    }
+
+    #address {
+        margin-top: 6em;
+    }
+
+    #newsletter #address li i {
+        width: auto;
+    }
+
+    #newsletter #address li div {
+        font-size: 14px;
+        width: auto;
+        text-align: -webkit-auto;
+        float: none;
+        line-height: 2;
+        display: inline-block;
+        padding: 10px 0 15px;
+    }
+
+    #newsletter #address li div:last-child {
+        padding-bottom: 0;
+    }
+
+    #newsletter #address li:not(:first-child) {
+        padding: 20px 0 0;
+    }
+}
+
+/* iPads (portrait)----------- */  
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+    
+    footer {
+        padding-right:3em;
+        padding-left:3em;
+    }
+
+    .col-3 {
+        display: block;
+        width: 100%;
+        padding-bottom: 1em;
+    }
+}
+
+/* iPads (landscape) ----------- */  
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {  
+    
+    section {
+        padding-bottom: 3em;
+    }
+
+    .sec-heading {
+        padding:1em 0;
+    }
+    
+    .col-3 {
+        display: block;
+        width: 100%;
+        padding-bottom: 1em;
+    }
+}
+
+/* Mini Tablet ----------- */  
+@media only screen and (max-width : 600px) {  
+    
+    .col-3 {
+        display: block;
+        width: 100%;
+        padding-bottom: 1em;
+    }
+
+    .col-6 {
+        width: 100%;
+        display: block;
+    }
+    
+    footer {
+        padding: 3em 2em 2em;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */  
+@media only screen and (max-width : 480px) {  
+
+    .col-6 {
+        width: 100%;
+        display: block;
+    }
+    
+    footer {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+}
