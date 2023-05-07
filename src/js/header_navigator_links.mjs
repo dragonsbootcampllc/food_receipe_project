@@ -6,11 +6,11 @@ let nav_object={
     },
     {
       "label": "About",
-      "url": "/src/html/about"
+      "url": "/src/html/about.html"
     },
     {
       "label": "Contact",
-      "url": "/src/html/contact"
+      "url": "/src/html/contact.html"
     },
   ]
 };
