@@ -2,7 +2,7 @@
  let html = document.getElementById("footer_section").innerHTML=
  ` <footer>
 <div>
-     <span class="logo">iTechnology</span>
+     <span class="logo">Foody</span>
 </div>
 
 <div class="row">
