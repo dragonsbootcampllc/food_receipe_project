@@ -62,19 +62,21 @@
   height: 100px;
   padding: 2px;
   margin: 0 auto;
+  
 }
 
-.container_food_item h3 {
+.container_food_item h4 {
   position: absolute;
   top: 20px;
   left: 0;
   right: 0;
   margin: 0 auto;
-  padding: 0px;
+  padding: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+
+  font-size: 1.2rem;
   color: gray;
   z-index: 10;
 }

@@ -1,97 +1,107 @@
 const food_sheif_items = [{
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-        img: "../../assist/images/3.png",
-        color: "yellow"
-        , id: 1
+    "name": "Chicken Parmesan",
+    "type": "dinner",
+    "color": "yellow",
+    "image": "../../assist/images/3.png",
+        "prise": 10,
+        "id": 1,
     },
     {
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-        img: "../../assist/images/3.png",
-        color: "yellow"
-        , id:2,
+        "name": "Chicken Marsala",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "prise": 10,
+         "id":2,
     },
     {
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-        img: "../../assist/images/3.png",
-        color:"yellow"
-        , id:3,
+        "name": "Chicken Piccata",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "prise": 10,
+
+        "id":3,
     },
     {
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-         id:4,
-        img: "../../assist/images/3.png",
-        color: "yellow"
+        "name": "Chicken Cacciatore",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "prise": 10,
+         "id":4,
+
     },
     {
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-        id:5,
-        img: "../../assist/images/3.png",
-        color: "yellow"
+        "name": "Chicken Florentine",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "prise": 10,
+        "id":5,
+
     }, {
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-        img: "../../assist/images/3.png",
-        color: "yellow"
-        ,id:6,
+
+        "prise": 10,
+        "name": "Chicken Fettuccine Alfredo",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "id":6,
     },
     {
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-        id:6,
-        img: "../../assist/images/3.png",
-        color: "yellow"
+        "name": "Chicken Pot Pie",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "prise": 10,
+        "id":6,
+  
     },
     {
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-        id:7,
-        img: "../../assist/images/3.png",
-        color: "yellow"
+        "name": "Chicken Pot Pie",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "prise": 10,
+        "id":7,
+
     },
     {
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-        id:8,
-        img: "../../assist/images/3.png",
-        color: "red"
+        "name": "Chicken Enchiladas",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "prise": 10,
+        "id":8,
+
     },
     {
-        type: "dinner",
-        name: "Chicken and Rice",
-        prise: 10,
-        id:9,
-        img: "../../assist/images/3.png",
-        color: "yellow"
+        "name": "Chicken Parmesan",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "prise": 10,
+        "id":9,
+
     },
     {
-        type: "breakfast",
-        name: "eggs and bacon",
-        prise: 10,
-        id:10,
-        img: "../../assist/images/3.png",
-        color: "yellow"
+        "name": "Chicken Piccata",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "prise": 10,
+        "id":10,
+
     },
     {
-        type: "breakfast",
-        name: "eggs and bacon",
-        prise: 10,
-        id:11,
-        img: "../../assist/images/3.png",
-        color: "yellow"
+        "name": "Chicken Parmesan",
+        "type": "dinner",
+        "color": "yellow",
+        "image": "../../assist/images/3.png",
+        "prise": 10,
+        "id":11,
+ 
     },
 ];
 import   "../store/API/JSON/item_recipe.js";
@@ -109,7 +119,7 @@ function createFoodShelfItem(item) {
     <div class="container">
     <div class="card">
         <div class="card_image2">
-            <img src="${item.img}" class="card_image_inner noselect" alt="${item.name}?=${item.type}" height="170px"
+            <img src="${item.image}" class="card_image_inner noselect" alt="${item.name}?=${item.type}" height="170px"
                 width="240px">
 
         </div>
@@ -124,9 +134,8 @@ function createFoodShelfItem(item) {
 
                     </div>
                     <div class="data_container">
-                        <h3>${item.name}</h3>
-                        <p>${item.prise}$</p>
-                        <button   type="button" onclick="seeTheRecipe(${item.id})">order</button>
+                        <h4>${item.name}</h4>
+                        <button   type="button" onclick="seeTheRecipe(${item.id})">Discover</button>
                     </div>
                 </div>
             </div>
