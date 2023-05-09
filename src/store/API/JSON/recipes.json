@@ -1,223 +1,246 @@
 {
-    "data": [ {
-        "id": 1,
-        "name": "Chicken Parmesan",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-parmesan-11.jpg",
-        "description": "Chicken Parmesan is a classic for a reason! Chicken cutlets, breaded and fried, smothered with tomato sauce, and covered with mozzarella and Parmesan cheeses are so good. Serve with pasta or on a roll.",
-        "ingredients": [
-            "1/2 cup all-purpose flour",
-            "2 large eggs",
-            "1 1/4 cups panko bread crumbs",
-            "1/4 cup grated Parmesan cheese",
-            "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
-            "Salt and freshly ground black pepper",
-            "6 tablespoons olive oil",
-            "1 1/2 cups marinara sauce",
-            "1 1/2 cups shredded mozzarella cheese",
-            "1/4 cup chopped fresh basil leaves"
-        ]
+  "data": [
+    {
+      "id": 1,
+      "name": "Chicken Parmesan",
+      "type": "dinner",
+      "color": "yellow",
+      "image": "../../assist/images/3.png",
+      "description": "Chicken Parmesan is a classic for a reason! Chicken cutlets, breaded and fried, smothered with tomato sauce, and covered with mozzarella and Parmesan cheeses are so good. Serve with pasta or on a roll.",
+      "ingredients": [
+        "1/2 cup all-purpose flour",
+        "2 large eggs",
+        "1 1/4 cups panko bread crumbs",
+        "1/4 cup grated Parmesan cheese",
+        "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
+        "Salt and freshly ground black pepper",
+        "6 tablespoons olive oil",
+        "1 1/2 cups marinara sauce",
+        "1 1/2 cups shredded mozzarella cheese",
+        "1/4 cup chopped fresh basil leaves"
+      ]
     },
-     {
-        "id": 2,
-        "name": "Chicken Marsala",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-marsala-11.jpg",
-        "description": "Chicken Marsala is an Italian-American dish of golden pan-fried chicken cutlets and mushrooms in a rich Marsala wine sauce. Though it’s a classic restaurant dish, it’s really easy to make at home. With just one pan, you can have it on the dinner table in 45 minutes.",
-        "ingredients": [
-            "4 (6 ounce) skinless, boneless chicken breast halves, pounded 1/4-inch thick",
-            "Kosher salt and freshly ground black pepper",
-            "1/2 cup all-purpose flour",
-            "1/4 cup extra-virgin olive oil",
-            "4 ounces prosciutto, thinly sliced",
-            "8 ounces crimini or porcini mushrooms, stemmed and halved",
-            "1/2 cup sweet Marsala wine",
-            "1/2 cup chicken stock",
-            "2 tablespoon unsalted butter",
-            "1/4 cup chopped flat-leaf parsley"
-        ]
+    {
+      "id": 2,
+      "name": "Chicken Marsala",
+      "type": "dinner",
+      "color": "yellow",
+      "image": "../../assist/images/3.png",
+      "description": "Chicken Marsala is an Italian-American dish of golden pan-fried chicken cutlets and mushrooms in a rich Marsala wine sauce. Though it’s a classic restaurant dish, it’s really easy to make at home. With just one pan, you can have it on the dinner table in 45 minutes.",
+      "ingredients": [
+        "4 (6 ounce) skinless, boneless chicken breast halves, pounded 1/4-inch thick",
+        "Kosher salt and freshly ground black pepper",
+        "1/2 cup all-purpose flour",
+        "1/4 cup extra-virgin olive oil",
+        "4 ounces prosciutto, thinly sliced",
+        "8 ounces crimini or porcini mushrooms, stemmed and halved",
+        "1/2 cup sweet Marsala wine",
+        "1/2 cup chicken stock",
+        "2 tablespoon unsalted butter",
+        "1/4 cup chopped flat-leaf parsley"
+      ]
     },
-  {
-        "id": 3,
-        "name": "Chicken Piccata",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-piccata-11.jpg",
-        "description": "Chicken Piccata! Sautéed chicken breast with buttery lemon caper sauce and capers. Serve with angel hair pasta.",
-        "ingredients": [
-            "2 boneless skinless chicken breasts, halved horizontally and pounded to 1/4-inch thickness",
-            "Salt and freshly ground black pepper",
-            "1/2 cup all-purpose flour",
-            "4 tablespoons unsalted butter, divided",
-            "2 tablespoons extra-virgin olive oil, divided",
-            "1/2 cup dry white wine or chicken stock",
-            "1/4 cup fresh lemon juice",
-            "1/4 cup brined capers, rinsed",
-            "2 tablespoons chopped fresh parsley"
-        ]
+    {
+      "id": 3,
+      "name": "Chicken Piccata",
+      "image": "../../assist/images/3.png",
+      "type": "dinner",
+      "color": "yellow",
+      "description": "Chicken Piccata! Sautéed chicken breast with buttery lemon caper sauce and capers. Serve with angel hair pasta.",
+      "ingredients": [
+        "2 boneless skinless chicken breasts, halved horizontally and pounded to 1/4-inch thickness",
+        "Salt and freshly ground black pepper",
+        "1/2 cup all-purpose flour",
+        "4 tablespoons unsalted butter, divided",
+        "2 tablespoons extra-virgin olive oil, divided",
+        "1/2 cup dry white wine or chicken stock",
+        "1/4 cup fresh lemon juice",
+        "1/4 cup brined capers, rinsed",
+        "2 tablespoons chopped fresh parsley"
+      ]
     },
-  {
-        "id": 4,
-        "name": "Chicken Cacciatore",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-cacciatore-11.jpg",
-        "description": "Chicken Cacciatore is an easy weeknight skillet dinner that can be ready in under an hour. Serve over rice to soak up the sauce and make sure to get every last drop of that silky sauce.",
-        "ingredients": [
-            "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
-            "Salt and freshly ground black pepper",
-            "1/2 cup all-purpose flour",
-            "2 tablespoons extra-virgin olive oil",
-            "1 medium yellow onion, chopped",
-            "1 medium red bell pepper, chopped",
-            "1 medium yellow bell pepper, chopped",
-            "8 ounces cremini mushrooms, sliced",
-            "3 cloves garlic, minced",
-            "1/2 cup dry white wine or chicken stock",
-            "1 (28-ounce) can crushed tomatoes",
-            "1 teaspoon dried oregano",
-            "1/4 cup chopped fresh basil leaves",
-            "1/4 cup chopped fresh parsley leaves"
-        ]
+    {
+      "id": 4,
+      "name": "Chicken Cacciatore",
+      "type": "dinner",
+      "color": "yellow",
+      "image": "../../assist/images/3.png",
+      "description": "Chicken Cacciatore is an easy weeknight skillet dinner that can be ready in under an hour. Serve over rice to soak up the sauce and make sure to get every last drop of that silky sauce.",
+      "ingredients": [
+        "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
+        "Salt and freshly ground black pepper",
+        "1/2 cup all-purpose flour",
+        "2 tablespoons extra-virgin olive oil",
+        "1 medium yellow onion, chopped",
+        "1 medium red bell pepper, chopped",
+        "1 medium yellow bell pepper, chopped",
+        "8 ounces cremini mushrooms, sliced",
+        "3 cloves garlic, minced",
+        "1/2 cup dry white wine or chicken stock",
+        "1 (28-ounce) can crushed tomatoes",
+        "1 teaspoon dried oregano",
+        "1/4 cup chopped fresh basil leaves",
+        "1/4 cup chopped fresh parsley leaves"
+      ]
     },
-   {
-        "id": 5,
-        "name": "Chicken Florentine",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-florentine-11.jpg",
-        "description": "Chicken Florentine is a rich, creamy dish named for the Italian city of Florence (Firenze). This version uses boneless, skinless chicken breasts served over a bed of baby spinach, mushrooms, and shallots.",
-        "ingredients": [
-            "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
-            "Salt and freshly ground black pepper",
-            "1/2 cup all-purpose flour",
-            "2 tablespoons extra-virgin olive oil",
-            "2 tablespoons unsalted butter",
-            "1 medium shallot, minced",
-            "8 ounces cremini mushrooms, sliced",
-            "2 cloves garlic, minced",
-            "1/2 cup dry white wine or chicken stock",
-            "1/2 cup heavy cream",
-            "1/2 cup grated Parmesan cheese",
-            "1/4 teaspoon freshly grated nutmeg",
-            "4 cups baby spinach leaves"
-        ]
+    {
+      "id": 5,
+      "name": "Chicken Florentine",
+      "type": "dinner",
+      "color": "yellow",
+      "image": "../../assist/images/3.png",
+      "description": "Chicken Florentine is a rich, creamy dish named for the Italian city of Florence (Firenze). This version uses boneless, skinless chicken breasts served over a bed of baby spinach, mushrooms, and shallots.",
+      "ingredients": [
+        "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
+        "Salt and freshly ground black pepper",
+        "1/2 cup all-purpose flour",
+        "2 tablespoons extra-virgin olive oil",
+        "2 tablespoons unsalted butter",
+        "1 medium shallot, minced",
+        "8 ounces cremini mushrooms, sliced",
+        "2 cloves garlic, minced",
+        "1/2 cup dry white wine or chicken stock",
+        "1/2 cup heavy cream",
+        "1/2 cup grated Parmesan cheese",
+        "1/4 teaspoon freshly grated nutmeg",
+        "4 cups baby spinach leaves"
+      ]
     },
-     {
-        "id": 6,
-        "name": "Chicken Fettuccine Alfredo",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-fettuccine-alfredo-11.jpg",
-        "description": "Chicken Fettuccine Alfredo! Pasta with a creamy Parmesan sauce with chicken and mushrooms.",
-        "ingredients": [
-            "1 pound fettuccine pasta",
-            "1 pound boneless skinless chicken breasts, cut into 1-inch pieces",
-            "Salt and freshly ground black pepper",
-            "2 tablespoons extra-virgin olive oil",
-            "2 tablespoons unsalted butter",
-            "8 ounces cremini mushrooms, sliced",
-            "2 cloves garlic, minced",
-            "1/2 cup dry white wine or chicken stock",
-            "1/2 cup heavy cream",
-            "1/2 cup grated Parmesan cheese",
-            "1/4 teaspoon freshly grated nutmeg",
-            "4 cups baby spinach leaves"
-        ]
+    {
+      "id": 6,
+      "name": "Chicken Fettuccine Alfredo",
+      "type": "dinner",
+      "color": "yellow",
+      "image": "../../assist/images/3.png",
+      "description": "Chicken Fettuccine Alfredo! Pasta with a creamy Parmesan sauce with chicken and mushrooms.",
+      "ingredients": [
+        "1 pound fettuccine pasta",
+        "1 pound boneless skinless chicken breasts, cut into 1-inch pieces",
+        "Salt and freshly ground black pepper",
+        "2 tablespoons extra-virgin olive oil",
+        "2 tablespoons unsalted butter",
+        "8 ounces cremini mushrooms, sliced",
+        "2 cloves garlic, minced",
+        "1/2 cup dry white wine or chicken stock",
+        "1/2 cup heavy cream",
+        "1/2 cup grated Parmesan cheese",
+        "1/4 teaspoon freshly grated nutmeg",
+        "4 cups baby spinach leaves"
+      ]
     },
-  {
-        "id": 7,
-        "name": "Chicken Pot Pie",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-pot-pie-11.jpg",
-        "description": "Chicken Pot Pie is a comfort food favorite! This chicken pot pie recipe has a flaky, buttery crust, a creamy sauce, and a hearty mix of chicken and vegetables.",
-        "ingredients": [
-            "1/2 cup unsalted butter",
-            "1/2 cup chopped yellow onion",
-            "1/2 cup all-purpose flour",
-            "1/2 teaspoon salt",
-            "1/4 teaspoon freshly ground black pepper",
-            "1 3/4 cups chicken broth",
-            "1/2 cup heavy cream",
-            "2 cups shredded cooked chicken",
-            "1 cup frozen peas",
-            "1 cup frozen carrots",
-            "1/2 cup frozen corn",
-            "1/2 teaspoon dried thyme",
-            "1/2 teaspoon dried oregano",
-            "1/2 teaspoon dried rosemary",
-            "1/2 teaspoon dried sage",
-            "1 (14.1-ounce) package refrigerated pie crusts (2 crusts)"
-        ]
+    {
+      "id": 7,
+      "name": "Chicken Pot Pie",
+      "type": "dinner",
+      "color": "yellow",
+      "image": "../../assist/images/3.png",
+      "description": "Chicken Pot Pie is a comfort food favorite! This chicken pot pie recipe has a flaky, buttery crust, a creamy sauce, and a hearty mix of chicken and vegetables.",
+      "ingredients": [
+        "1/2 cup unsalted butter",
+        "1/2 cup chopped yellow onion",
+        "1/2 cup all-purpose flour",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon freshly ground black pepper",
+        "1 3/4 cups chicken broth",
+        "1/2 cup heavy cream",
+        "2 cups shredded cooked chicken",
+        "1 cup frozen peas",
+        "1 cup frozen carrots",
+        "1/2 cup frozen corn",
+        "1/2 teaspoon dried thyme",
+        "1/2 teaspoon dried oregano",
+        "1/2 teaspoon dried rosemary",
+        "1/2 teaspoon dried sage",
+        "1 (14.1-ounce) package refrigerated pie crusts (2 crusts)"
+      ]
     },
- {
-        "id": 8,
-        "name": "Chicken Enchiladas",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-enchiladas-11.jpg",
-        "description": "Chicken Enchiladas! These are the BEST Chicken Enchiladas ever! Perfectly cooked chicken, green chilies, cheese and a creamy sauce make these Chicken Enchiladas the best ever!",
-        "ingredients": [
-            "1 tablespoon extra-virgin olive oil",
-            "1/2 cup chopped yellow onion",
-            "1 clove garlic, minced",
-            "1 pound boneless skinless chicken breasts, cut into 1/2-inch pieces",
-            "Salt and freshly ground black pepper",
-            "1 (4-ounce) can diced green chilies",
-            "1/2 teaspoon ground cumin",
-            "1/2 teaspoon chili powder",
-            "1/4 teaspoon dried oregano",
-            "1/4 teaspoon paprika",
-            "1/4 teaspoon cayenne pepper",
-            "1/2 cup chicken broth",
-            "1/2 cup sour cream",
-            "1 (10-ounce) can red enchilada sauce, divided",
-            "1 cup shredded Monterey Jack cheese, divided",
-            "1 cup shredded cheddar cheese, divided",
-            "8 (8-inch) flour tortillas"
-        ]
+    {
+      "id": 8,
+      "name": "Chicken Enchiladas",
+      "type": "dinner",
+      "color": "yellow",
+      "image": "../../assist/images/3.png",
+      "description": "Chicken Enchiladas! These are the BEST Chicken Enchiladas ever! Perfectly cooked chicken, green chilies, cheese and a creamy sauce make these Chicken Enchiladas the best ever!",
+      "ingredients": [
+        "1 tablespoon extra-virgin olive oil",
+        "1/2 cup chopped yellow onion",
+        "1 clove garlic, minced",
+        "1 pound boneless skinless chicken breasts, cut into 1/2-inch pieces",
+        "Salt and freshly ground black pepper",
+        "1 (4-ounce) can diced green chilies",
+        "1/2 teaspoon ground cumin",
+        "1/2 teaspoon chili powder",
+        "1/4 teaspoon dried oregano",
+        "1/4 teaspoon paprika",
+        "1/4 teaspoon cayenne pepper",
+        "1/2 cup chicken broth",
+        "1/2 cup sour cream",
+        "1 (10-ounce) can red enchilada sauce, divided",
+        "1 cup shredded Monterey Jack cheese, divided",
+        "1 cup shredded cheddar cheese, divided",
+        "8 (8-inch) flour tortillas"
+      ]
     },
-   {
-        "id": 9,
-        "name": "Chicken Marsala",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-marsala-11.jpg",
-        "description": "Chicken Marsala is an Italian-American dish of golden pan-fried chicken cutlets and mushrooms in a rich Marsala wine sauce. Though it’s a classic restaurant dish, it’s really easy to make at home. With just one pan, you can have it on the dinner table in 45 minutes.",
-        "ingredients": [
-            "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
-            "Salt and freshly ground black pepper",
-            "1/2 cup all-purpose flour",
-            "2 tablespoons extra-virgin olive oil",
-            "2 tablespoons unsalted butter",
-            "8 ounces cremini mushrooms, sliced",
-            "2 cloves garlic, minced",
-            "1/2 cup dry Marsala wine",
-            "1/2 cup chicken broth",
-            "1/2 cup heavy cream",
-            "1/4 cup chopped fresh parsley leaves"
-        ]
+    {
+      "id": 9,
+      "name": "Chicken Marsala",
+      "type": "dinner",
+      "color": "yellow",
+      "image": "../../assist/images/3.png",
+      "description": "Chicken Marsala is an Italian-American dish of golden pan-fried chicken cutlets and mushrooms in a rich Marsala wine sauce. Though it’s a classic restaurant dish, it’s really easy to make at home. With just one pan, you can have it on the dinner table in 45 minutes.",
+      "ingredients": [
+        "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
+        "Salt and freshly ground black pepper",
+        "1/2 cup all-purpose flour",
+        "2 tablespoons extra-virgin olive oil",
+        "2 tablespoons unsalted butter",
+        "8 ounces cremini mushrooms, sliced",
+        "2 cloves garlic, minced",
+        "1/2 cup dry Marsala wine",
+        "1/2 cup chicken broth",
+        "1/2 cup heavy cream",
+        "1/4 cup chopped fresh parsley leaves"
+      ]
     },
-     {
-        "id": 10,
-        "name": "Chicken Parmesan",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-parmesan-11.jpg",
-        "description": "Chicken Parmesan is a classic for a reason! Chicken cutlets, breaded and fried, smothered with tomato sauce, and covered with mozzarella and Parmesan cheeses are so good. Serve with pasta or on a roll.",
-        "ingredients": [
-            "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
-            "Salt and freshly ground black pepper",
-            "1/2 cup all-purpose flour",
-            "2 large eggs, beaten",
-            "1 cup panko breadcrumbs",
-            "1/2 cup grated Parmesan cheese",
-            "2 tablespoons extra-virgin olive oil",
-            "2 tablespoons unsalted butter",
-            "1 (24-ounce) jar marinara sauce",
-            "1 cup shredded mozzarella cheese",
-            "1/4 cup chopped fresh basil leaves"
-        ]
+    {
+      "id": 10,
+      "name": "Chicken Parmesan",
+      "type": "dinner",
+      "color": "yellow",
+      "image": "../../assist/images/3.png",
+      "description": "Chicken Parmesan is a classic for a reason! Chicken cutlets, breaded and fried, smothered with tomato sauce, and covered with mozzarella and Parmesan cheeses are so good. Serve with pasta or on a roll.",
+      "ingredients": [
+        "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
+        "Salt and freshly ground black pepper",
+        "1/2 cup all-purpose flour",
+        "2 large eggs, beaten",
+        "1 cup panko breadcrumbs",
+        "1/2 cup grated Parmesan cheese",
+        "2 tablespoons extra-virgin olive oil",
+        "2 tablespoons unsalted butter",
+        "1 (24-ounce) jar marinara sauce",
+        "1 cup shredded mozzarella cheese",
+        "1/4 cup chopped fresh basil leaves"
+      ]
     },
-     {
-        "id": 11,
-        "name": "Chicken Piccata",
-        "image": "https://www.cookingclassy.com/wp-content/uploads/2012/11/chicken-piccata-11.jpg",
-        "description": "Chicken Piccata! Sautéed chicken breast with buttery lemon caper sauce and pasta.",
-        "ingredients": [
-            "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
-            "Salt and freshly ground black pepper",
-            "1/2 cup all-purpose flour",
-            "2 tablespoons extra-virgin olive oil",
-            "2 tablespoons unsalted butter",
-            "1/2 cup dry white wine or chicken broth",
-            "1/4 cup fresh lemon juice",
-            "2 tablespoons capers, drained",
-            "2 tablespoons chopped fresh parsley leaves"
-        ]
+    {
+      "id": 11,
+      "name": "Chicken Piccata",
+      "type": "dinner",
+      "color": "yellow",
+      "image": "../../assist/images/3.png",
+      "description": "Chicken Piccata! Sautéed chicken breast with buttery lemon caper sauce and pasta.",
+      "ingredients": [
+        "4 boneless skinless chicken breasts (about 1 1/2 pounds total), pounded to 1/2-inch thickness",
+        "Salt and freshly ground black pepper",
+        "1/2 cup all-purpose flour",
+        "2 tablespoons extra-virgin olive oil",
+        "2 tablespoons unsalted butter",
+        "1/2 cup dry white wine or chicken broth",
+        "1/4 cup fresh lemon juice",
+        "2 tablespoons capers, drained",
+        "2 tablespoons chopped fresh parsley leaves"
+      ]
     }
-]
+  ]
 }
