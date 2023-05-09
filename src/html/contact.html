@@ -13,6 +13,13 @@
 
   <!--js-->
   <script type="module" src="../js/header.js" defer></script>
+  <script type="module" src="../js/contact_us.js" defer></script>
+  
+
+
+
+<!-- Import the component -->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
 
   <title>Document</title>
 </head>
@@ -71,9 +78,14 @@
   </div>
   <div class="the_right_hand">
 <div class="video_container">
-<img class="video_container_img" src="../../assist/images/contact.gif" alt="">
+<!-- Use it like any other HTML element -->
+<model-viewer class="d3_model_aspect" alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="../../assist/images/NeilArmstrong.glb" ar environment-image="../../assist/images/moon_1k.hdr" poster="../../assist/images/NeilArmstrong.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+
+
 </div>
   </div>
  </section> 
+
+ 
 </body>
 </html>

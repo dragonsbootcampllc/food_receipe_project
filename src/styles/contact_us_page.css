@@ -66,10 +66,11 @@ html,body{
     margin: 0 0 0 0;
     position: relative;
     overflow: hidden;
-    background-color: white;
+    background-color: black;
 
 
-}
+
+  }
 
 .input_style{
     width: 100%;
@@ -197,5 +198,8 @@ place-items: center;
     flex-direction: column; 
   }
 }
-
+ .d3_model_aspect {
+height: 600px;
+width: 600px;
+ }
 
