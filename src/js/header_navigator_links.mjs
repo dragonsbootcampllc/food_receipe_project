@@ -2,15 +2,15 @@ let nav_object = {
   navItems: [
     {
       label: "Home",
-      url: "/src/html/index.html",
+      url: "/food_receipe_project/src/html/index.html",
     },
     {
       label: "About",
-      url: "/src/html/about.html",
+      url: "/food_receipe_project/src/html/about.html",
     },
     {
       label: "Contact",
-      url: "/src/html/contact.html",
+      url: "/food_receipe_project/src/html/contact.html",
     },
   ],
 };
