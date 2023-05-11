@@ -1,5 +1,5 @@
 let local ="http://127.0.0.1:5500"
-let production= "/food_receipe_project/"
+let production= "/food_receipe_project"
 //get the current url
 let current_route = window.location.origin;
 let route = "";
