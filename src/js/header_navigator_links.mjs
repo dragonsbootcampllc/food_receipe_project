@@ -1,16 +1,22 @@
+let local ="http://127.0.0.1:5500/"
+let production= "https://dragonseg.github.io/food_receipe_project/"
+//get the current url
+let current_route = window.location.origin;
+
+console.log("this is your current route: "+current_route);
 let nav_object = {
   navItems: [
     {
       label: "Home",
-      url: "/src/html/index.html",
+      url: current_route+"/src/html/index.html",
     },
     {
       label: "About",
-      url: "/src/html/about.html",
+      url: current_route+"/src/html/about.html",
     },
     {
       label: "Contact",
-      url: "/src/html/contact.html",
+      url: current_route+"/src/html/contact.html",
     },
   ],
 };
