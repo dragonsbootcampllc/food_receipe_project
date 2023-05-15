@@ -60,6 +60,9 @@
         $(document).ready(function () {
             whatis();
         });
+
+let imageURL="https://dragonseg.github.io/food_receipe_project/assist/images/3.png"
+
         function whatis() {
             let newObject = JSON.parse(window.localStorage.getItem("recipe_data"));
             console.log(newObject);
@@ -80,7 +83,7 @@
                 <div class="recipe_item_detailes">
         <div class="recipe_item_detailes_img">
             <div class="image_container">
-                <img class="image" alt="test" src="/assist/images/3.png" height="" width="" />
+                <img class="image" alt="test" src="${imageURL}" height="" width="" />
             </div>
         </div>
 
